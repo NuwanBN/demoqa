@@ -1,0 +1,17 @@
+{
+  "selectedLabel": "You have selected",
+  "home": "home",
+  "desktop": "desktop",
+  "documents": "documents",
+  "downloads": "downloads",
+  "notes": "notes",
+  "commands": "commands",
+  "react": "react",
+  "homeLabel": "Select Home",
+  "desktopLabel": "Select Desktop",
+  "documentsLabel": "Select Documents",
+  "workSpaceLabel": "Select WorkSpace",
+  "notesLabel": "Select Notes",
+  "commandsLabel": "Select Commands",
+  "reactLabel": "Select React"
+}

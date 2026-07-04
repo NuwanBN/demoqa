@@ -1,0 +1,37 @@
+{
+  "name": "resizable-drag-handles",
+  "recorded_at": "2026-07-04T12:57:55.618Z",
+  "session_id": "4df70372-e4cd-49d2-a9a4-f80ce22efd99",
+  "project_root": "d:\\ordi\\demoqa",
+  "status": "finalized",
+  "steps": [
+    {
+      "seq": 1,
+      "action": "navigate",
+      "timestamp": "2026-07-04T12:57:55.757Z",
+      "url": "https://demoqa.com/resizable",
+      "chosen": null,
+      "candidates": [],
+      "screenshot_after": "step-001.png",
+      "actor": "agent",
+      "navigation_trigger": "explicit"
+    }
+  ],
+  "started_by": "agent",
+  "actor_summary": {
+    "human": 0,
+    "agent": 1
+  },
+  "pre_conditions": [
+    "fresh session",
+    "Resizable page is reachable"
+  ],
+  "post_conditions": [
+    "page loaded"
+  ],
+  "depends_on": [],
+  "pages_covered": [
+    "https://demoqa.com/resizable"
+  ],
+  "summary": "Open Resizable. Boxes use SE react-resizable handles; size is changed by mouse down on the handle and drag by offset (validated via live DOM probe)."
+}

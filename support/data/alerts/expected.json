@@ -1,0 +1,8 @@
+{
+  "simpleAlertMessage": "You clicked a button",
+  "timerAlertMessage": "This alert appeared after 5 seconds",
+  "confirmAlertMessage": "Do you confirm action?",
+  "confirmResultOk": "You selected Ok",
+  "promptAlertMessage": "Please enter your name",
+  "promptText": "Ordino"
+}

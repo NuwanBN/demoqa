@@ -1,0 +1,6 @@
+{
+  "validLinkHost": "demoqa\\.com",
+  "brokenLinkStatus": "500",
+  "validImageSrc": "/images/Toolsqa.jpg",
+  "brokenImageSrc": "/images/Toolsqa_1.jpg"
+}

@@ -1,0 +1,13 @@
+{
+  "password": "Test@1234!",
+  "invalidPassword": "Wrong@1234",
+  "tokenSuccess": "Success",
+  "tokenFailed": "Failed",
+  "tokenFailedResult": "User authorization failed.",
+  "userExistsMessage": "User exists!",
+  "userNotFoundMessage": "User not found!",
+  "bookIsbn": "9781449325862",
+  "bookTitle": "Git Pocket Guide",
+  "replaceIsbn": "9781449331818",
+  "replaceTitle": "Learning JavaScript Design Patterns"
+}

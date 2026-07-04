@@ -1,0 +1,1825 @@
+{
+  "name": "checkbox-expand-levels",
+  "recorded_at": "2026-07-04T09:45:15.063Z",
+  "session_id": "116e4651-59c4-4b14-a584-80136ba20c7c",
+  "project_root": "d:\\ordi\\demoqa",
+  "status": "finalized",
+  "steps": [
+    {
+      "seq": 1,
+      "action": "navigate",
+      "timestamp": "2026-07-04T09:45:15.197Z",
+      "url": "https://demoqa.com/checkbox",
+      "chosen": null,
+      "candidates": [],
+      "screenshot_after": "step-001.png",
+      "actor": "human",
+      "navigation_trigger": "explicit"
+    },
+    {
+      "seq": 2,
+      "action": "click",
+      "timestamp": "2026-07-04T09:49:00.918Z",
+      "chosen": {
+        "strategy": "role_name",
+        "value": "checkbox[name=\"Select Desktop\"]",
+        "strength": "strong"
+      },
+      "candidates": [
+        {
+          "strategy": "role_name",
+          "value": "checkbox[name=\"Select Desktop\"]",
+          "strength": "strong"
+        },
+        {
+          "strategy": "nth",
+          "value": "//span[@aria-label=\"Select Desktop\"]",
+          "strength": "weak"
+        }
+      ],
+      "element": {
+        "tag": "span",
+        "role": "checkbox",
+        "name": "Select Desktop"
+      },
+      "screenshot_after": "step-002.png",
+      "actor": "human"
+    },
+    {
+      "seq": 3,
+      "action": "click",
+      "timestamp": "2026-07-04T09:49:01.742Z",
+      "chosen": {
+        "strategy": "role_name",
+        "value": "checkbox[name=\"Select Desktop\"]",
+        "strength": "strong"
+      },
+      "candidates": [
+        {
+          "strategy": "role_name",
+          "value": "checkbox[name=\"Select Desktop\"]",
+          "strength": "strong"
+        },
+        {
+          "strategy": "nth",
+          "value": "//span[@aria-label=\"Select Desktop\"]",
+          "strength": "weak"
+        }
+      ],
+      "element": {
+        "tag": "span",
+        "role": "checkbox",
+        "name": "Select Desktop"
+      },
+      "screenshot_after": "step-003.png",
+      "actor": "human"
+    },
+    {
+      "seq": 4,
+      "action": "click",
+      "timestamp": "2026-07-04T09:49:02.550Z",
+      "chosen": {
+        "strategy": "role_name",
+        "value": "checkbox[name=\"Select Commands\"]",
+        "strength": "strong"
+      },
+      "candidates": [
+        {
+          "strategy": "role_name",
+          "value": "checkbox[name=\"Select Commands\"]",
+          "strength": "strong"
+        },
+        {
+          "strategy": "nth",
+          "value": "//span[@aria-label=\"Select Commands\"]",
+          "strength": "weak"
+        }
+      ],
+      "element": {
+        "tag": "span",
+        "role": "checkbox",
+        "name": "Select Commands"
+      },
+      "screenshot_after": "step-004.png",
+      "actor": "human"
+    },
+    {
+      "seq": 5,
+      "action": "click",
+      "timestamp": "2026-07-04T09:49:03.566Z",
+      "chosen": {
+        "strategy": "role_name",
+        "value": "checkbox[name=\"Select Commands\"]",
+        "strength": "strong"
+      },
+      "candidates": [
+        {
+          "strategy": "role_name",
+          "value": "checkbox[name=\"Select Commands\"]",
+          "strength": "strong"
+        },
+        {
+          "strategy": "nth",
+          "value": "//span[@aria-label=\"Select Commands\"]",
+          "strength": "weak"
+        }
+      ],
+      "element": {
+        "tag": "span",
+        "role": "checkbox",
+        "name": "Select Commands"
+      },
+      "screenshot_after": "step-005.png",
+      "actor": "human"
+    },
+    {
+      "seq": 6,
+      "action": "click",
+      "timestamp": "2026-07-04T09:49:04.702Z",
+      "chosen": {
+        "strategy": "role_name",
+        "value": "checkbox[name=\"Select Notes\"]",
+        "strength": "strong"
+      },
+      "candidates": [
+        {
+          "strategy": "role_name",
+          "value": "checkbox[name=\"Select Notes\"]",
+          "strength": "strong"
+        },
+        {
+          "strategy": "nth",
+          "value": "//span[@aria-label=\"Select Notes\"]",
+          "strength": "weak"
+        }
+      ],
+      "element": {
+        "tag": "span",
+        "role": "checkbox",
+        "name": "Select Notes"
+      },
+      "screenshot_after": "step-006.png",
+      "actor": "human"
+    },
+    {
+      "seq": 7,
+      "action": "click",
+      "timestamp": "2026-07-04T09:49:05.390Z",
+      "chosen": {
+        "strategy": "role_name",
+        "value": "checkbox[name=\"Select Notes\"]",
+        "strength": "strong"
+      },
+      "candidates": [
+        {
+          "strategy": "role_name",
+          "value": "checkbox[name=\"Select Notes\"]",
+          "strength": "strong"
+        },
+        {
+          "strategy": "nth",
+          "value": "//span[@aria-label=\"Select Notes\"]",
+          "strength": "weak"
+        }
+      ],
+      "element": {
+        "tag": "span",
+        "role": "checkbox",
+        "name": "Select Notes"
+      },
+      "screenshot_after": "step-007.png",
+      "actor": "human"
+    },
+    {
+      "seq": 8,
+      "action": "click",
+      "timestamp": "2026-07-04T09:49:09.446Z",
+      "chosen": {
+        "strategy": "role_name",
+        "value": "checkbox[name=\"Select React\"]",
+        "strength": "strong"
+      },
+      "candidates": [
+        {
+          "strategy": "role_name",
+          "value": "checkbox[name=\"Select React\"]",
+          "strength": "strong"
+        },
+        {
+          "strategy": "nth",
+          "value": "//span[@aria-label=\"Select React\"]",
+          "strength": "weak"
+        }
+      ],
+      "element": {
+        "tag": "span",
+        "role": "checkbox",
+        "name": "Select React"
+      },
+      "screenshot_after": "step-008.png",
+      "actor": "human"
+    }
+  ],
+  "final_snapshot": {
+    "url": "https://demoqa.com/checkbox",
+    "title": "demosite",
+    "alerts": [],
+    "truncated": false,
+    "elements": [
+      {
+        "ref": "ref-e40c292c",
+        "role": "a",
+        "name": "",
+        "tag": "a",
+        "candidates": [
+          {
+            "strategy": "nth",
+            "value": "//a",
+            "strength": "weak"
+          }
+        ],
+        "chosen": {
+          "strategy": "nth",
+          "value": "//a",
+          "strength": "weak"
+        },
+        "element": {
+          "role": "a",
+          "name": "",
+          "tag": "a"
+        }
+      },
+      {
+        "ref": "ref-de7c8d58",
+        "role": "button",
+        "name": "",
+        "tag": "button",
+        "candidates": [
+          {
+            "strategy": "attr_combo",
+            "value": "//button[@type=\"button\"]",
+            "strength": "medium"
+          },
+          {
+            "strategy": "nth",
+            "value": "//button",
+            "strength": "weak"
+          }
+        ],
+        "chosen": {
+          "strategy": "attr_combo",
+          "value": "//button[@type=\"button\"]",
+          "strength": "medium"
+        },
+        "element": {
+          "role": "button",
+          "name": "",
+          "tag": "button"
+        }
+      },
+      {
+        "ref": "ref-da07a2bc",
+        "role": "a",
+        "name": "Text Box",
+        "tag": "a",
+        "candidates": [
+          {
+            "strategy": "scoped",
+            "value": "a[name=\"Text Box\"]",
+            "container": {
+              "role": "li",
+              "name": "Text Box"
+            },
+            "strength": "strong"
+          },
+          {
+            "strategy": "nth",
+            "value": "//a",
+            "strength": "weak"
+          }
+        ],
+        "chosen": {
+          "strategy": "scoped",
+          "value": "a[name=\"Text Box\"]",
+          "container": {
+            "role": "li",
+            "name": "Text Box"
+          },
+          "strength": "strong"
+        },
+        "element": {
+          "role": "a",
+          "name": "Text Box",
+          "tag": "a"
+        }
+      },
+      {
+        "ref": "ref-d690a973",
+        "role": "a",
+        "name": "Check Box",
+        "tag": "a",
+        "candidates": [
+          {
+            "strategy": "scoped",
+            "value": "a[name=\"Check Box\"]",
+            "container": {
+              "role": "li",
+              "name": "Check Box"
+            },
+            "strength": "strong"
+          },
+          {
+            "strategy": "nth",
+            "value": "//a",
+            "strength": "weak"
+          }
+        ],
+        "chosen": {
+          "strategy": "scoped",
+          "value": "a[name=\"Check Box\"]",
+          "container": {
+            "role": "li",
+            "name": "Check Box"
+          },
+          "strength": "strong"
+        },
+        "element": {
+          "role": "a",
+          "name": "Check Box",
+          "tag": "a"
+        }
+      },
+      {
+        "ref": "ref-3311e80b",
+        "role": "a",
+        "name": "Radio Button",
+        "tag": "a",
+        "candidates": [
+          {
+            "strategy": "scoped",
+            "value": "a[name=\"Radio Button\"]",
+            "container": {
+              "role": "li",
+              "name": "Radio Button"
+            },
+            "strength": "strong"
+          },
+          {
+            "strategy": "nth",
+            "value": "//a",
+            "strength": "weak"
+          }
+        ],
+        "chosen": {
+          "strategy": "scoped",
+          "value": "a[name=\"Radio Button\"]",
+          "container": {
+            "role": "li",
+            "name": "Radio Button"
+          },
+          "strength": "strong"
+        },
+        "element": {
+          "role": "a",
+          "name": "Radio Button",
+          "tag": "a"
+        }
+      },
+      {
+        "ref": "ref-91ae3119",
+        "role": "a",
+        "name": "Web Tables",
+        "tag": "a",
+        "candidates": [
+          {
+            "strategy": "scoped",
+            "value": "a[name=\"Web Tables\"]",
+            "container": {
+              "role": "li",
+              "name": "Web Tables"
+            },
+            "strength": "strong"
+          },
+          {
+            "strategy": "nth",
+            "value": "//a",
+            "strength": "weak"
+          }
+        ],
+        "chosen": {
+          "strategy": "scoped",
+          "value": "a[name=\"Web Tables\"]",
+          "container": {
+            "role": "li",
+            "name": "Web Tables"
+          },
+          "strength": "strong"
+        },
+        "element": {
+          "role": "a",
+          "name": "Web Tables",
+          "tag": "a"
+        }
+      },
+      {
+        "ref": "ref-badb9bbb",
+        "role": "a",
+        "name": "Buttons",
+        "tag": "a",
+        "candidates": [
+          {
+            "strategy": "scoped",
+            "value": "a[name=\"Buttons\"]",
+            "container": {
+              "role": "li",
+              "name": "Buttons"
+            },
+            "strength": "strong"
+          },
+          {
+            "strategy": "nth",
+            "value": "//a",
+            "strength": "weak"
+          }
+        ],
+        "chosen": {
+          "strategy": "scoped",
+          "value": "a[name=\"Buttons\"]",
+          "container": {
+            "role": "li",
+            "name": "Buttons"
+          },
+          "strength": "strong"
+        },
+        "element": {
+          "role": "a",
+          "name": "Buttons",
+          "tag": "a"
+        }
+      },
+      {
+        "ref": "ref-36d5ed2b",
+        "role": "a",
+        "name": "Links",
+        "tag": "a",
+        "candidates": [
+          {
+            "strategy": "scoped",
+            "value": "a[name=\"Links\"]",
+            "container": {
+              "role": "li",
+              "name": "Links"
+            },
+            "strength": "strong"
+          },
+          {
+            "strategy": "nth",
+            "value": "//a",
+            "strength": "weak"
+          }
+        ],
+        "chosen": {
+          "strategy": "scoped",
+          "value": "a[name=\"Links\"]",
+          "container": {
+            "role": "li",
+            "name": "Links"
+          },
+          "strength": "strong"
+        },
+        "element": {
+          "role": "a",
+          "name": "Links",
+          "tag": "a"
+        }
+      },
+      {
+        "ref": "ref-18f34f39",
+        "role": "a",
+        "name": "Broken Links - Images",
+        "tag": "a",
+        "candidates": [
+          {
+            "strategy": "scoped",
+            "value": "a[name=\"Broken Links - Images\"]",
+            "container": {
+              "role": "li",
+              "name": "Broken Links - Images"
+            },
+            "strength": "strong"
+          },
+          {
+            "strategy": "nth",
+            "value": "//a",
+            "strength": "weak"
+          }
+        ],
+        "chosen": {
+          "strategy": "scoped",
+          "value": "a[name=\"Broken Links - Images\"]",
+          "container": {
+            "role": "li",
+            "name": "Broken Links - Images"
+          },
+          "strength": "strong"
+        },
+        "element": {
+          "role": "a",
+          "name": "Broken Links - Images",
+          "tag": "a"
+        }
+      },
+      {
+        "ref": "ref-9e249712",
+        "role": "a",
+        "name": "Upload and Download",
+        "tag": "a",
+        "candidates": [
+          {
+            "strategy": "scoped",
+            "value": "a[name=\"Upload and Download\"]",
+            "container": {
+              "role": "li",
+              "name": "Upload and Download"
+            },
+            "strength": "strong"
+          },
+          {
+            "strategy": "nth",
+            "value": "//a",
+            "strength": "weak"
+          }
+        ],
+        "chosen": {
+          "strategy": "scoped",
+          "value": "a[name=\"Upload and Download\"]",
+          "container": {
+            "role": "li",
+            "name": "Upload and Download"
+          },
+          "strength": "strong"
+        },
+        "element": {
+          "role": "a",
+          "name": "Upload and Download",
+          "tag": "a"
+        }
+      },
+      {
+        "ref": "ref-a9a66e84",
+        "role": "a",
+        "name": "Dynamic Properties",
+        "tag": "a",
+        "candidates": [
+          {
+            "strategy": "scoped",
+            "value": "a[name=\"Dynamic Properties\"]",
+            "container": {
+              "role": "li",
+              "name": "Dynamic Properties"
+            },
+            "strength": "strong"
+          },
+          {
+            "strategy": "nth",
+            "value": "//a",
+            "strength": "weak"
+          }
+        ],
+        "chosen": {
+          "strategy": "scoped",
+          "value": "a[name=\"Dynamic Properties\"]",
+          "container": {
+            "role": "li",
+            "name": "Dynamic Properties"
+          },
+          "strength": "strong"
+        },
+        "element": {
+          "role": "a",
+          "name": "Dynamic Properties",
+          "tag": "a"
+        }
+      },
+      {
+        "ref": "ref-31d7e22f",
+        "role": "a",
+        "name": "Practice Form",
+        "tag": "a",
+        "candidates": [
+          {
+            "strategy": "scoped",
+            "value": "a[name=\"Practice Form\"]",
+            "container": {
+              "role": "li",
+              "name": "Practice Form"
+            },
+            "strength": "strong"
+          },
+          {
+            "strategy": "nth",
+            "value": "//a",
+            "strength": "weak"
+          }
+        ],
+        "chosen": {
+          "strategy": "scoped",
+          "value": "a[name=\"Practice Form\"]",
+          "container": {
+            "role": "li",
+            "name": "Practice Form"
+          },
+          "strength": "strong"
+        },
+        "element": {
+          "role": "a",
+          "name": "Practice Form",
+          "tag": "a"
+        }
+      },
+      {
+        "ref": "ref-97d29ef7",
+        "role": "a",
+        "name": "Browser Windows",
+        "tag": "a",
+        "candidates": [
+          {
+            "strategy": "scoped",
+            "value": "a[name=\"Browser Windows\"]",
+            "container": {
+              "role": "li",
+              "name": "Browser Windows"
+            },
+            "strength": "strong"
+          },
+          {
+            "strategy": "nth",
+            "value": "//a",
+            "strength": "weak"
+          }
+        ],
+        "chosen": {
+          "strategy": "scoped",
+          "value": "a[name=\"Browser Windows\"]",
+          "container": {
+            "role": "li",
+            "name": "Browser Windows"
+          },
+          "strength": "strong"
+        },
+        "element": {
+          "role": "a",
+          "name": "Browser Windows",
+          "tag": "a"
+        }
+      },
+      {
+        "ref": "ref-1fe15a39",
+        "role": "a",
+        "name": "Alerts",
+        "tag": "a",
+        "candidates": [
+          {
+            "strategy": "scoped",
+            "value": "a[name=\"Alerts\"]",
+            "container": {
+              "role": "li",
+              "name": "Alerts"
+            },
+            "strength": "strong"
+          },
+          {
+            "strategy": "nth",
+            "value": "//a",
+            "strength": "weak"
+          }
+        ],
+        "chosen": {
+          "strategy": "scoped",
+          "value": "a[name=\"Alerts\"]",
+          "container": {
+            "role": "li",
+            "name": "Alerts"
+          },
+          "strength": "strong"
+        },
+        "element": {
+          "role": "a",
+          "name": "Alerts",
+          "tag": "a"
+        }
+      },
+      {
+        "ref": "ref-21a03c00",
+        "role": "a",
+        "name": "Frames",
+        "tag": "a",
+        "candidates": [
+          {
+            "strategy": "scoped",
+            "value": "a[name=\"Frames\"]",
+            "container": {
+              "role": "li",
+              "name": "Frames"
+            },
+            "strength": "strong"
+          },
+          {
+            "strategy": "nth",
+            "value": "//a",
+            "strength": "weak"
+          }
+        ],
+        "chosen": {
+          "strategy": "scoped",
+          "value": "a[name=\"Frames\"]",
+          "container": {
+            "role": "li",
+            "name": "Frames"
+          },
+          "strength": "strong"
+        },
+        "element": {
+          "role": "a",
+          "name": "Frames",
+          "tag": "a"
+        }
+      },
+      {
+        "ref": "ref-1df923fd",
+        "role": "a",
+        "name": "Nested Frames",
+        "tag": "a",
+        "candidates": [
+          {
+            "strategy": "scoped",
+            "value": "a[name=\"Nested Frames\"]",
+            "container": {
+              "role": "li",
+              "name": "Nested Frames"
+            },
+            "strength": "strong"
+          },
+          {
+            "strategy": "nth",
+            "value": "//a",
+            "strength": "weak"
+          }
+        ],
+        "chosen": {
+          "strategy": "scoped",
+          "value": "a[name=\"Nested Frames\"]",
+          "container": {
+            "role": "li",
+            "name": "Nested Frames"
+          },
+          "strength": "strong"
+        },
+        "element": {
+          "role": "a",
+          "name": "Nested Frames",
+          "tag": "a"
+        }
+      },
+      {
+        "ref": "ref-b6c2b342",
+        "role": "a",
+        "name": "Modal Dialogs",
+        "tag": "a",
+        "candidates": [
+          {
+            "strategy": "scoped",
+            "value": "a[name=\"Modal Dialogs\"]",
+            "container": {
+              "role": "li",
+              "name": "Modal Dialogs"
+            },
+            "strength": "strong"
+          },
+          {
+            "strategy": "nth",
+            "value": "//a",
+            "strength": "weak"
+          }
+        ],
+        "chosen": {
+          "strategy": "scoped",
+          "value": "a[name=\"Modal Dialogs\"]",
+          "container": {
+            "role": "li",
+            "name": "Modal Dialogs"
+          },
+          "strength": "strong"
+        },
+        "element": {
+          "role": "a",
+          "name": "Modal Dialogs",
+          "tag": "a"
+        }
+      },
+      {
+        "ref": "ref-15dc8216",
+        "role": "a",
+        "name": "Accordian",
+        "tag": "a",
+        "candidates": [
+          {
+            "strategy": "scoped",
+            "value": "a[name=\"Accordian\"]",
+            "container": {
+              "role": "li",
+              "name": "Accordian"
+            },
+            "strength": "strong"
+          },
+          {
+            "strategy": "nth",
+            "value": "//a",
+            "strength": "weak"
+          }
+        ],
+        "chosen": {
+          "strategy": "scoped",
+          "value": "a[name=\"Accordian\"]",
+          "container": {
+            "role": "li",
+            "name": "Accordian"
+          },
+          "strength": "strong"
+        },
+        "element": {
+          "role": "a",
+          "name": "Accordian",
+          "tag": "a"
+        }
+      },
+      {
+        "ref": "ref-484b8554",
+        "role": "a",
+        "name": "Auto Complete",
+        "tag": "a",
+        "candidates": [
+          {
+            "strategy": "scoped",
+            "value": "a[name=\"Auto Complete\"]",
+            "container": {
+              "role": "li",
+              "name": "Auto Complete"
+            },
+            "strength": "strong"
+          },
+          {
+            "strategy": "nth",
+            "value": "//a",
+            "strength": "weak"
+          }
+        ],
+        "chosen": {
+          "strategy": "scoped",
+          "value": "a[name=\"Auto Complete\"]",
+          "container": {
+            "role": "li",
+            "name": "Auto Complete"
+          },
+          "strength": "strong"
+        },
+        "element": {
+          "role": "a",
+          "name": "Auto Complete",
+          "tag": "a"
+        }
+      },
+      {
+        "ref": "ref-65664e80",
+        "role": "a",
+        "name": "Date Picker",
+        "tag": "a",
+        "candidates": [
+          {
+            "strategy": "scoped",
+            "value": "a[name=\"Date Picker\"]",
+            "container": {
+              "role": "li",
+              "name": "Date Picker"
+            },
+            "strength": "strong"
+          },
+          {
+            "strategy": "nth",
+            "value": "//a",
+            "strength": "weak"
+          }
+        ],
+        "chosen": {
+          "strategy": "scoped",
+          "value": "a[name=\"Date Picker\"]",
+          "container": {
+            "role": "li",
+            "name": "Date Picker"
+          },
+          "strength": "strong"
+        },
+        "element": {
+          "role": "a",
+          "name": "Date Picker",
+          "tag": "a"
+        }
+      },
+      {
+        "ref": "ref-a7b1d15f",
+        "role": "a",
+        "name": "Slider",
+        "tag": "a",
+        "candidates": [
+          {
+            "strategy": "scoped",
+            "value": "a[name=\"Slider\"]",
+            "container": {
+              "role": "li",
+              "name": "Slider"
+            },
+            "strength": "strong"
+          },
+          {
+            "strategy": "nth",
+            "value": "//a",
+            "strength": "weak"
+          }
+        ],
+        "chosen": {
+          "strategy": "scoped",
+          "value": "a[name=\"Slider\"]",
+          "container": {
+            "role": "li",
+            "name": "Slider"
+          },
+          "strength": "strong"
+        },
+        "element": {
+          "role": "a",
+          "name": "Slider",
+          "tag": "a"
+        }
+      },
+      {
+        "ref": "ref-df88cdb8",
+        "role": "a",
+        "name": "Progress Bar",
+        "tag": "a",
+        "candidates": [
+          {
+            "strategy": "scoped",
+            "value": "a[name=\"Progress Bar\"]",
+            "container": {
+              "role": "li",
+              "name": "Progress Bar"
+            },
+            "strength": "strong"
+          },
+          {
+            "strategy": "nth",
+            "value": "//a",
+            "strength": "weak"
+          }
+        ],
+        "chosen": {
+          "strategy": "scoped",
+          "value": "a[name=\"Progress Bar\"]",
+          "container": {
+            "role": "li",
+            "name": "Progress Bar"
+          },
+          "strength": "strong"
+        },
+        "element": {
+          "role": "a",
+          "name": "Progress Bar",
+          "tag": "a"
+        }
+      },
+      {
+        "ref": "ref-548a8a96",
+        "role": "a",
+        "name": "Tabs",
+        "tag": "a",
+        "candidates": [
+          {
+            "strategy": "scoped",
+            "value": "a[name=\"Tabs\"]",
+            "container": {
+              "role": "li",
+              "name": "Tabs"
+            },
+            "strength": "strong"
+          },
+          {
+            "strategy": "nth",
+            "value": "//a",
+            "strength": "weak"
+          }
+        ],
+        "chosen": {
+          "strategy": "scoped",
+          "value": "a[name=\"Tabs\"]",
+          "container": {
+            "role": "li",
+            "name": "Tabs"
+          },
+          "strength": "strong"
+        },
+        "element": {
+          "role": "a",
+          "name": "Tabs",
+          "tag": "a"
+        }
+      },
+      {
+        "ref": "ref-e23221a6",
+        "role": "a",
+        "name": "Tool Tips",
+        "tag": "a",
+        "candidates": [
+          {
+            "strategy": "scoped",
+            "value": "a[name=\"Tool Tips\"]",
+            "container": {
+              "role": "li",
+              "name": "Tool Tips"
+            },
+            "strength": "strong"
+          },
+          {
+            "strategy": "nth",
+            "value": "//a",
+            "strength": "weak"
+          }
+        ],
+        "chosen": {
+          "strategy": "scoped",
+          "value": "a[name=\"Tool Tips\"]",
+          "container": {
+            "role": "li",
+            "name": "Tool Tips"
+          },
+          "strength": "strong"
+        },
+        "element": {
+          "role": "a",
+          "name": "Tool Tips",
+          "tag": "a"
+        }
+      },
+      {
+        "ref": "ref-ef8fbf25",
+        "role": "a",
+        "name": "Menu",
+        "tag": "a",
+        "candidates": [
+          {
+            "strategy": "scoped",
+            "value": "a[name=\"Menu\"]",
+            "container": {
+              "role": "li",
+              "name": "Menu"
+            },
+            "strength": "strong"
+          },
+          {
+            "strategy": "nth",
+            "value": "//a",
+            "strength": "weak"
+          }
+        ],
+        "chosen": {
+          "strategy": "scoped",
+          "value": "a[name=\"Menu\"]",
+          "container": {
+            "role": "li",
+            "name": "Menu"
+          },
+          "strength": "strong"
+        },
+        "element": {
+          "role": "a",
+          "name": "Menu",
+          "tag": "a"
+        }
+      },
+      {
+        "ref": "ref-36e01e01",
+        "role": "a",
+        "name": "Select Menu",
+        "tag": "a",
+        "candidates": [
+          {
+            "strategy": "scoped",
+            "value": "a[name=\"Select Menu\"]",
+            "container": {
+              "role": "li",
+              "name": "Select Menu"
+            },
+            "strength": "strong"
+          },
+          {
+            "strategy": "nth",
+            "value": "//a",
+            "strength": "weak"
+          }
+        ],
+        "chosen": {
+          "strategy": "scoped",
+          "value": "a[name=\"Select Menu\"]",
+          "container": {
+            "role": "li",
+            "name": "Select Menu"
+          },
+          "strength": "strong"
+        },
+        "element": {
+          "role": "a",
+          "name": "Select Menu",
+          "tag": "a"
+        }
+      },
+      {
+        "ref": "ref-f764e5b6",
+        "role": "a",
+        "name": "Sortable",
+        "tag": "a",
+        "candidates": [
+          {
+            "strategy": "scoped",
+            "value": "a[name=\"Sortable\"]",
+            "container": {
+              "role": "li",
+              "name": "Sortable"
+            },
+            "strength": "strong"
+          },
+          {
+            "strategy": "nth",
+            "value": "//a",
+            "strength": "weak"
+          }
+        ],
+        "chosen": {
+          "strategy": "scoped",
+          "value": "a[name=\"Sortable\"]",
+          "container": {
+            "role": "li",
+            "name": "Sortable"
+          },
+          "strength": "strong"
+        },
+        "element": {
+          "role": "a",
+          "name": "Sortable",
+          "tag": "a"
+        }
+      },
+      {
+        "ref": "ref-7ddf03be",
+        "role": "a",
+        "name": "Selectable",
+        "tag": "a",
+        "candidates": [
+          {
+            "strategy": "scoped",
+            "value": "a[name=\"Selectable\"]",
+            "container": {
+              "role": "li",
+              "name": "Selectable"
+            },
+            "strength": "strong"
+          },
+          {
+            "strategy": "nth",
+            "value": "//a",
+            "strength": "weak"
+          }
+        ],
+        "chosen": {
+          "strategy": "scoped",
+          "value": "a[name=\"Selectable\"]",
+          "container": {
+            "role": "li",
+            "name": "Selectable"
+          },
+          "strength": "strong"
+        },
+        "element": {
+          "role": "a",
+          "name": "Selectable",
+          "tag": "a"
+        }
+      },
+      {
+        "ref": "ref-d97be543",
+        "role": "a",
+        "name": "Resizable",
+        "tag": "a",
+        "candidates": [
+          {
+            "strategy": "scoped",
+            "value": "a[name=\"Resizable\"]",
+            "container": {
+              "role": "li",
+              "name": "Resizable"
+            },
+            "strength": "strong"
+          },
+          {
+            "strategy": "nth",
+            "value": "//a",
+            "strength": "weak"
+          }
+        ],
+        "chosen": {
+          "strategy": "scoped",
+          "value": "a[name=\"Resizable\"]",
+          "container": {
+            "role": "li",
+            "name": "Resizable"
+          },
+          "strength": "strong"
+        },
+        "element": {
+          "role": "a",
+          "name": "Resizable",
+          "tag": "a"
+        }
+      },
+      {
+        "ref": "ref-af0363b5",
+        "role": "a",
+        "name": "Droppable",
+        "tag": "a",
+        "candidates": [
+          {
+            "strategy": "scoped",
+            "value": "a[name=\"Droppable\"]",
+            "container": {
+              "role": "li",
+              "name": "Droppable"
+            },
+            "strength": "strong"
+          },
+          {
+            "strategy": "nth",
+            "value": "//a",
+            "strength": "weak"
+          }
+        ],
+        "chosen": {
+          "strategy": "scoped",
+          "value": "a[name=\"Droppable\"]",
+          "container": {
+            "role": "li",
+            "name": "Droppable"
+          },
+          "strength": "strong"
+        },
+        "element": {
+          "role": "a",
+          "name": "Droppable",
+          "tag": "a"
+        }
+      },
+      {
+        "ref": "ref-50372a1c",
+        "role": "a",
+        "name": "Dragabble",
+        "tag": "a",
+        "candidates": [
+          {
+            "strategy": "scoped",
+            "value": "a[name=\"Dragabble\"]",
+            "container": {
+              "role": "li",
+              "name": "Dragabble"
+            },
+            "strength": "strong"
+          },
+          {
+            "strategy": "nth",
+            "value": "//a",
+            "strength": "weak"
+          }
+        ],
+        "chosen": {
+          "strategy": "scoped",
+          "value": "a[name=\"Dragabble\"]",
+          "container": {
+            "role": "li",
+            "name": "Dragabble"
+          },
+          "strength": "strong"
+        },
+        "element": {
+          "role": "a",
+          "name": "Dragabble",
+          "tag": "a"
+        }
+      },
+      {
+        "ref": "ref-434fe0c7",
+        "role": "a",
+        "name": "Login",
+        "tag": "a",
+        "candidates": [
+          {
+            "strategy": "scoped",
+            "value": "a[name=\"Login\"]",
+            "container": {
+              "role": "li",
+              "name": "Login"
+            },
+            "strength": "strong"
+          },
+          {
+            "strategy": "nth",
+            "value": "//a",
+            "strength": "weak"
+          }
+        ],
+        "chosen": {
+          "strategy": "scoped",
+          "value": "a[name=\"Login\"]",
+          "container": {
+            "role": "li",
+            "name": "Login"
+          },
+          "strength": "strong"
+        },
+        "element": {
+          "role": "a",
+          "name": "Login",
+          "tag": "a"
+        }
+      },
+      {
+        "ref": "ref-71a247ce",
+        "role": "a",
+        "name": "Book Store",
+        "tag": "a",
+        "candidates": [
+          {
+            "strategy": "scoped",
+            "value": "a[name=\"Book Store\"]",
+            "container": {
+              "role": "li",
+              "name": "Book Store"
+            },
+            "strength": "strong"
+          },
+          {
+            "strategy": "nth",
+            "value": "//a",
+            "strength": "weak"
+          }
+        ],
+        "chosen": {
+          "strategy": "scoped",
+          "value": "a[name=\"Book Store\"]",
+          "container": {
+            "role": "li",
+            "name": "Book Store"
+          },
+          "strength": "strong"
+        },
+        "element": {
+          "role": "a",
+          "name": "Book Store",
+          "tag": "a"
+        }
+      },
+      {
+        "ref": "ref-655496df",
+        "role": "a",
+        "name": "Profile",
+        "tag": "a",
+        "candidates": [
+          {
+            "strategy": "scoped",
+            "value": "a[name=\"Profile\"]",
+            "container": {
+              "role": "li",
+              "name": "Profile"
+            },
+            "strength": "strong"
+          },
+          {
+            "strategy": "nth",
+            "value": "//a",
+            "strength": "weak"
+          }
+        ],
+        "chosen": {
+          "strategy": "scoped",
+          "value": "a[name=\"Profile\"]",
+          "container": {
+            "role": "li",
+            "name": "Profile"
+          },
+          "strength": "strong"
+        },
+        "element": {
+          "role": "a",
+          "name": "Profile",
+          "tag": "a"
+        }
+      },
+      {
+        "ref": "ref-172f444e",
+        "role": "a",
+        "name": "Book Store API",
+        "tag": "a",
+        "candidates": [
+          {
+            "strategy": "scoped",
+            "value": "a[name=\"Book Store API\"]",
+            "container": {
+              "role": "li",
+              "name": "Book Store API"
+            },
+            "strength": "strong"
+          },
+          {
+            "strategy": "nth",
+            "value": "//a",
+            "strength": "weak"
+          }
+        ],
+        "chosen": {
+          "strategy": "scoped",
+          "value": "a[name=\"Book Store API\"]",
+          "container": {
+            "role": "li",
+            "name": "Book Store API"
+          },
+          "strength": "strong"
+        },
+        "element": {
+          "role": "a",
+          "name": "Book Store API",
+          "tag": "a"
+        }
+      },
+      {
+        "ref": "ref-27331415",
+        "role": "input",
+        "name": "for screen reader",
+        "tag": "input",
+        "candidates": [
+          {
+            "strategy": "role_name",
+            "value": "input[name=\"for screen reader\"]",
+            "strength": "strong"
+          },
+          {
+            "strategy": "nth",
+            "value": "//input[@aria-label=\"for screen reader\"]",
+            "strength": "weak"
+          }
+        ],
+        "chosen": {
+          "strategy": "role_name",
+          "value": "input[name=\"for screen reader\"]",
+          "strength": "strong"
+        },
+        "element": {
+          "role": "input",
+          "name": "for screen reader",
+          "tag": "input"
+        }
+      },
+      {
+        "ref": "ref-0deb66e5",
+        "role": "checkbox",
+        "name": "Select Home",
+        "tag": "span",
+        "candidates": [
+          {
+            "strategy": "role_name",
+            "value": "checkbox[name=\"Select Home\"]",
+            "strength": "strong"
+          },
+          {
+            "strategy": "nth",
+            "value": "//span[@aria-label=\"Select Home\"]",
+            "strength": "weak"
+          }
+        ],
+        "chosen": {
+          "strategy": "role_name",
+          "value": "checkbox[name=\"Select Home\"]",
+          "strength": "strong"
+        },
+        "element": {
+          "role": "checkbox",
+          "name": "Select Home",
+          "tag": "span"
+        }
+      },
+      {
+        "ref": "ref-42a6739a",
+        "role": "checkbox",
+        "name": "Select Desktop",
+        "tag": "span",
+        "candidates": [
+          {
+            "strategy": "role_name",
+            "value": "checkbox[name=\"Select Desktop\"]",
+            "strength": "strong"
+          },
+          {
+            "strategy": "nth",
+            "value": "//span[@aria-label=\"Select Desktop\"]",
+            "strength": "weak"
+          }
+        ],
+        "chosen": {
+          "strategy": "role_name",
+          "value": "checkbox[name=\"Select Desktop\"]",
+          "strength": "strong"
+        },
+        "element": {
+          "role": "checkbox",
+          "name": "Select Desktop",
+          "tag": "span"
+        }
+      },
+      {
+        "ref": "ref-b410ff6f",
+        "role": "checkbox",
+        "name": "Select Notes",
+        "tag": "span",
+        "candidates": [
+          {
+            "strategy": "role_name",
+            "value": "checkbox[name=\"Select Notes\"]",
+            "strength": "strong"
+          },
+          {
+            "strategy": "nth",
+            "value": "//span[@aria-label=\"Select Notes\"]",
+            "strength": "weak"
+          }
+        ],
+        "chosen": {
+          "strategy": "role_name",
+          "value": "checkbox[name=\"Select Notes\"]",
+          "strength": "strong"
+        },
+        "element": {
+          "role": "checkbox",
+          "name": "Select Notes",
+          "tag": "span"
+        }
+      },
+      {
+        "ref": "ref-498f8b88",
+        "role": "checkbox",
+        "name": "Select Commands",
+        "tag": "span",
+        "candidates": [
+          {
+            "strategy": "role_name",
+            "value": "checkbox[name=\"Select Commands\"]",
+            "strength": "strong"
+          },
+          {
+            "strategy": "nth",
+            "value": "//span[@aria-label=\"Select Commands\"]",
+            "strength": "weak"
+          }
+        ],
+        "chosen": {
+          "strategy": "role_name",
+          "value": "checkbox[name=\"Select Commands\"]",
+          "strength": "strong"
+        },
+        "element": {
+          "role": "checkbox",
+          "name": "Select Commands",
+          "tag": "span"
+        }
+      },
+      {
+        "ref": "ref-5acc979c",
+        "role": "checkbox",
+        "name": "Select Documents",
+        "tag": "span",
+        "candidates": [
+          {
+            "strategy": "role_name",
+            "value": "checkbox[name=\"Select Documents\"]",
+            "strength": "strong"
+          },
+          {
+            "strategy": "nth",
+            "value": "//span[@aria-label=\"Select Documents\"]",
+            "strength": "weak"
+          }
+        ],
+        "chosen": {
+          "strategy": "role_name",
+          "value": "checkbox[name=\"Select Documents\"]",
+          "strength": "strong"
+        },
+        "element": {
+          "role": "checkbox",
+          "name": "Select Documents",
+          "tag": "span"
+        }
+      },
+      {
+        "ref": "ref-884f220b",
+        "role": "checkbox",
+        "name": "Select WorkSpace",
+        "tag": "span",
+        "candidates": [
+          {
+            "strategy": "role_name",
+            "value": "checkbox[name=\"Select WorkSpace\"]",
+            "strength": "strong"
+          },
+          {
+            "strategy": "nth",
+            "value": "//span[@aria-label=\"Select WorkSpace\"]",
+            "strength": "weak"
+          }
+        ],
+        "chosen": {
+          "strategy": "role_name",
+          "value": "checkbox[name=\"Select WorkSpace\"]",
+          "strength": "strong"
+        },
+        "element": {
+          "role": "checkbox",
+          "name": "Select WorkSpace",
+          "tag": "span"
+        }
+      },
+      {
+        "ref": "ref-e8c18f55",
+        "role": "checkbox",
+        "name": "Select React",
+        "tag": "span",
+        "candidates": [
+          {
+            "strategy": "role_name",
+            "value": "checkbox[name=\"Select React\"]",
+            "strength": "strong"
+          },
+          {
+            "strategy": "nth",
+            "value": "//span[@aria-label=\"Select React\"]",
+            "strength": "weak"
+          }
+        ],
+        "chosen": {
+          "strategy": "role_name",
+          "value": "checkbox[name=\"Select React\"]",
+          "strength": "strong"
+        },
+        "element": {
+          "role": "checkbox",
+          "name": "Select React",
+          "tag": "span"
+        }
+      },
+      {
+        "ref": "ref-55206730",
+        "role": "checkbox",
+        "name": "Select Angular",
+        "tag": "span",
+        "candidates": [
+          {
+            "strategy": "role_name",
+            "value": "checkbox[name=\"Select Angular\"]",
+            "strength": "strong"
+          },
+          {
+            "strategy": "nth",
+            "value": "//span[@aria-label=\"Select Angular\"]",
+            "strength": "weak"
+          }
+        ],
+        "chosen": {
+          "strategy": "role_name",
+          "value": "checkbox[name=\"Select Angular\"]",
+          "strength": "strong"
+        },
+        "element": {
+          "role": "checkbox",
+          "name": "Select Angular",
+          "tag": "span"
+        }
+      },
+      {
+        "ref": "ref-6b513972",
+        "role": "checkbox",
+        "name": "Select Veu",
+        "tag": "span",
+        "candidates": [
+          {
+            "strategy": "role_name",
+            "value": "checkbox[name=\"Select Veu\"]",
+            "strength": "strong"
+          },
+          {
+            "strategy": "nth",
+            "value": "//span[@aria-label=\"Select Veu\"]",
+            "strength": "weak"
+          }
+        ],
+        "chosen": {
+          "strategy": "role_name",
+          "value": "checkbox[name=\"Select Veu\"]",
+          "strength": "strong"
+        },
+        "element": {
+          "role": "checkbox",
+          "name": "Select Veu",
+          "tag": "span"
+        }
+      },
+      {
+        "ref": "ref-af8c759a",
+        "role": "checkbox",
+        "name": "Select Office",
+        "tag": "span",
+        "candidates": [
+          {
+            "strategy": "role_name",
+            "value": "checkbox[name=\"Select Office\"]",
+            "strength": "strong"
+          },
+          {
+            "strategy": "nth",
+            "value": "//span[@aria-label=\"Select Office\"]",
+            "strength": "weak"
+          }
+        ],
+        "chosen": {
+          "strategy": "role_name",
+          "value": "checkbox[name=\"Select Office\"]",
+          "strength": "strong"
+        },
+        "element": {
+          "role": "checkbox",
+          "name": "Select Office",
+          "tag": "span"
+        }
+      },
+      {
+        "ref": "ref-14a31e1b",
+        "role": "checkbox",
+        "name": "Select Downloads",
+        "tag": "span",
+        "candidates": [
+          {
+            "strategy": "role_name",
+            "value": "checkbox[name=\"Select Downloads\"]",
+            "strength": "strong"
+          },
+          {
+            "strategy": "nth",
+            "value": "//span[@aria-label=\"Select Downloads\"]",
+            "strength": "weak"
+          }
+        ],
+        "chosen": {
+          "strategy": "role_name",
+          "value": "checkbox[name=\"Select Downloads\"]",
+          "strength": "strong"
+        },
+        "element": {
+          "role": "checkbox",
+          "name": "Select Downloads",
+          "tag": "span"
+        }
+      }
+    ]
+  },
+  "started_by": "human",
+  "actor_summary": {
+    "human": 8,
+    "agent": 0
+  },
+  "pre_conditions": [
+    "fresh session",
+    "Check Box page is reachable",
+    "tree can be expanded to show Desktop, Notes, Commands, and React"
+  ],
+  "post_conditions": [
+    "level checkboxes are selected",
+    "result panel lists selected items"
+  ],
+  "depends_on": [],
+  "pages_covered": [
+    "https://demoqa.com/checkbox"
+  ],
+  "summary": "Open Check Box, expand the tree, select Desktop/Notes/Commands/React at nested levels, and confirm the result panel."
+}

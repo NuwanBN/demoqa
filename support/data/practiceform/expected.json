@@ -1,0 +1,13 @@
+{
+  "firstName": "John",
+  "lastName": "Doe",
+  "email": "john.doe@example.com",
+  "mobile": "9876543210",
+  "address": "123 Main Street",
+  "state": "NCR",
+  "city": "Delhi",
+  "gender": "Male",
+  "hobby": "Sports",
+  "pictureFileName": "sample.png",
+  "modalTitle": "Thanks for submitting the form"
+}

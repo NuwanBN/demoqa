@@ -1,0 +1,213 @@
+{
+  "version": 1,
+  "entries": [
+    {
+      "name": "resizable-drag-handles",
+      "safe_name": "resizable-drag-handles",
+      "path": ".ordino/recordings/resizable-drag-handles.json",
+      "summary": "Open Resizable. Boxes use SE react-resizable handles; size is changed by mouse down on the handle and drag by offset (validated via live DOM probe).",
+      "pre_conditions": [
+        "fresh session",
+        "Resizable page is reachable"
+      ],
+      "post_conditions": [
+        "page loaded"
+      ],
+      "depends_on": [],
+      "pages_covered": [
+        "https://demoqa.com/resizable"
+      ],
+      "started_by": "agent",
+      "recorded_at": "2026-07-04T12:57:55.618Z",
+      "step_count": 1,
+      "status": "finalized",
+      "thumbnail_path": "d:\\ordi\\demoqa\\.ordino\\recordings\\resizable-drag-handles\\step-001.png"
+    },
+    {
+      "name": "selectable-list-grid",
+      "safe_name": "selectable-list-grid",
+      "path": ".ordino/recordings/selectable-list-grid.json",
+      "summary": "Open Selectable and switch between List and Grid tabs. List and grid items are plain list items selected via click; active class marks selection (validated via live DOM probe).",
+      "pre_conditions": [
+        "fresh session",
+        "Selectable page is reachable"
+      ],
+      "post_conditions": [
+        "Grid tab is active"
+      ],
+      "depends_on": [],
+      "pages_covered": [
+        "https://demoqa.com/selectable"
+      ],
+      "started_by": "agent",
+      "recorded_at": "2026-07-04T12:51:53.729Z",
+      "step_count": 3,
+      "thumbnail_path": "d:\\ordi\\demoqa\\.ordino\\recordings\\selectable-list-grid\\step-001.png",
+      "status": "finalized"
+    },
+    {
+      "name": "sortable-list-grid",
+      "safe_name": "sortable-list-grid",
+      "path": ".ordino/recordings/sortable-list-grid.json",
+      "summary": "Open Sortable and switch between List and Grid tabs. List and grid items are plain divs (not in a11y tree); reorder is validated via live DOM drag probes.",
+      "pre_conditions": [
+        "fresh session",
+        "Sortable page is reachable"
+      ],
+      "post_conditions": [
+        "Grid tab is active"
+      ],
+      "depends_on": [],
+      "pages_covered": [
+        "https://demoqa.com/sortable"
+      ],
+      "started_by": "agent",
+      "recorded_at": "2026-07-04T12:38:40.049Z",
+      "step_count": 4,
+      "thumbnail_path": "d:\\ordi\\demoqa\\.ordino\\recordings\\sortable-list-grid\\step-001.png",
+      "status": "finalized"
+    },
+    {
+      "name": "selectmenu-selections",
+      "safe_name": "selectmenu-selections",
+      "path": ".ordino/recordings/selectmenu-selections.json",
+      "summary": "Open Select Menu and select Group 1 option 1, Dr., Purple, and multiselect colors Green and Blue.",
+      "pre_conditions": [
+        "fresh session",
+        "Select Menu page is reachable"
+      ],
+      "post_conditions": [
+        "Select Value shows Group 1, option 1",
+        "Select One shows Dr.",
+        "Old Style Select is Purple",
+        "Multiselect shows Green and Blue"
+      ],
+      "depends_on": [],
+      "pages_covered": [
+        "https://demoqa.com/select-menu"
+      ],
+      "started_by": "agent",
+      "recorded_at": "2026-07-04T12:24:08.760Z",
+      "step_count": 14,
+      "thumbnail_path": "d:\\ordi\\demoqa\\.ordino\\recordings\\selectmenu-selections\\step-001.png",
+      "status": "finalized"
+    },
+    {
+      "name": "menu-submenu-hover",
+      "safe_name": "menu-submenu-hover",
+      "path": ".ordino/recordings/menu-submenu-hover.json",
+      "summary": "Open Menu, hover Main Item 2 to reveal submenu, then hover SUB SUB LIST to reveal Sub Sub Item 1 and Sub Sub Item 2.",
+      "pre_conditions": [
+        "fresh session",
+        "Menu page is reachable"
+      ],
+      "post_conditions": [
+        "Main Item 2 submenu is open",
+        "SUB SUB LIST sub-submenu shows Sub Sub Item 1 and Sub Sub Item 2"
+      ],
+      "depends_on": [],
+      "pages_covered": [
+        "https://demoqa.com/menu"
+      ],
+      "started_by": "agent",
+      "recorded_at": "2026-07-04T12:04:20.179Z",
+      "step_count": 3,
+      "thumbnail_path": "d:\\ordi\\demoqa\\.ordino\\recordings\\menu-submenu-hover\\step-001.png",
+      "status": "finalized"
+    },
+    {
+      "name": "radio-happy-path",
+      "safe_name": "radio-happy-path",
+      "path": ".ordino/recordings/radio-happy-path.json",
+      "summary": "Open Radio Button page, select Yes, and confirm the selection message.",
+      "pre_conditions": [
+        "fresh session",
+        "Radio Button page is reachable"
+      ],
+      "post_conditions": [
+        "Yes radio is selected",
+        "page shows You have selected Yes"
+      ],
+      "depends_on": [],
+      "pages_covered": [
+        "https://demoqa.com/radio-button"
+      ],
+      "started_by": "agent",
+      "recorded_at": "2026-07-04T10:00:20.667Z",
+      "step_count": 3,
+      "thumbnail_path": "d:\\ordi\\demoqa\\.ordino\\recordings\\radio-happy-path\\step-001.png",
+      "status": "finalized"
+    },
+    {
+      "name": "checkbox-expand-levels",
+      "safe_name": "checkbox-expand-levels",
+      "path": ".ordino/recordings/checkbox-expand-levels.json",
+      "summary": "Open Check Box, expand the tree, select Desktop/Notes/Commands/React at nested levels, and confirm the result panel.",
+      "pre_conditions": [
+        "fresh session",
+        "Check Box page is reachable",
+        "tree can be expanded to show Desktop, Notes, Commands, and React"
+      ],
+      "post_conditions": [
+        "level checkboxes are selected",
+        "result panel lists selected items"
+      ],
+      "depends_on": [],
+      "pages_covered": [
+        "https://demoqa.com/checkbox"
+      ],
+      "started_by": "human",
+      "recorded_at": "2026-07-04T09:45:15.063Z",
+      "step_count": 8,
+      "thumbnail_path": "d:\\ordi\\demoqa\\.ordino\\recordings\\checkbox-expand-levels\\step-001.png",
+      "status": "finalized"
+    },
+    {
+      "name": "checkbox-happy-path",
+      "safe_name": "checkbox-happy-path",
+      "path": ".ordino/recordings/checkbox-happy-path.json",
+      "summary": "Open Check Box page, select Home, and confirm the result panel shows the selected tree items.",
+      "pre_conditions": [
+        "fresh session",
+        "Check Box page is reachable"
+      ],
+      "post_conditions": [
+        "Home checkbox is checked",
+        "result panel lists selected items including home"
+      ],
+      "depends_on": [],
+      "pages_covered": [
+        "https://demoqa.com/checkbox"
+      ],
+      "started_by": "agent",
+      "recorded_at": "2026-07-04T09:34:34.297Z",
+      "step_count": 3,
+      "thumbnail_path": "d:\\ordi\\demoqa\\.ordino\\recordings\\checkbox-happy-path\\step-001.png",
+      "status": "finalized"
+    },
+    {
+      "name": "textbox-happy-path",
+      "safe_name": "textbox-happy-path",
+      "path": ".ordino/recordings/textbox-happy-path.json",
+      "summary": "Navigate to Text Box, fill Full Name, Email, Current Address, and Permanent Address, submit, and confirm values appear in the output panel.",
+      "pre_conditions": [
+        "fresh session at BASE_URL",
+        "Text Box page is reachable"
+      ],
+      "post_conditions": [
+        "form submitted",
+        "output panel shows Full Name, Email, Current Address, and Permanent Address"
+      ],
+      "depends_on": [],
+      "pages_covered": [
+        "https://demoqa.com/",
+        "https://demoqa.com/elements"
+      ],
+      "started_by": "agent",
+      "recorded_at": "2026-07-04T09:20:44.046Z",
+      "step_count": 13,
+      "thumbnail_path": "d:\\ordi\\demoqa\\.ordino\\recordings\\textbox-happy-path\\step-001.png",
+      "status": "finalized"
+    }
+  ]
+}

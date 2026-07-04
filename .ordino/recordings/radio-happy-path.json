@@ -1,0 +1,76 @@
+{
+  "name": "radio-happy-path",
+  "recorded_at": "2026-07-04T10:00:20.667Z",
+  "session_id": "1cf0cdd6-6c60-4f41-91f3-e41e29491ba6",
+  "project_root": "d:\\ordi\\demoqa",
+  "status": "finalized",
+  "steps": [
+    {
+      "seq": 1,
+      "action": "navigate",
+      "timestamp": "2026-07-04T10:00:20.751Z",
+      "url": "https://demoqa.com/radio-button",
+      "chosen": null,
+      "candidates": [],
+      "screenshot_after": "step-001.png",
+      "actor": "agent",
+      "navigation_trigger": "explicit"
+    },
+    {
+      "seq": 2,
+      "action": "snapshot",
+      "timestamp": "2026-07-04T10:00:27.341Z",
+      "chosen": null,
+      "candidates": [],
+      "screenshot_after": "step-002.png",
+      "actor": "agent"
+    },
+    {
+      "seq": 3,
+      "action": "check",
+      "timestamp": "2026-07-04T10:00:40.360Z",
+      "chosen": {
+        "strategy": "dom_id",
+        "value": "yesRadio",
+        "strength": "strong"
+      },
+      "candidates": [
+        {
+          "strategy": "dom_id",
+          "value": "yesRadio",
+          "strength": "strong"
+        },
+        {
+          "strategy": "role_name",
+          "value": "radio[name=\"Yes\"]",
+          "strength": "medium"
+        }
+      ],
+      "element": {
+        "role": "radio",
+        "name": "Yes",
+        "tag": "input",
+        "id": "yesRadio"
+      },
+      "actor": "agent"
+    }
+  ],
+  "started_by": "agent",
+  "actor_summary": {
+    "human": 0,
+    "agent": 3
+  },
+  "pre_conditions": [
+    "fresh session",
+    "Radio Button page is reachable"
+  ],
+  "post_conditions": [
+    "Yes radio is selected",
+    "page shows You have selected Yes"
+  ],
+  "depends_on": [],
+  "pages_covered": [
+    "https://demoqa.com/radio-button"
+  ],
+  "summary": "Open Radio Button page, select Yes, and confirm the selection message."
+}

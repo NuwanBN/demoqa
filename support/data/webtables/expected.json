@@ -1,0 +1,13 @@
+{
+  "firstName": "Ada",
+  "lastName": "Lovelace",
+  "email": "ada@example.com",
+  "age": "36",
+  "salary": "90000",
+  "department": "Engineering",
+  "editedFirstName": "Augusta",
+  "editedDepartment": "Science",
+  "searchName": "Cierra",
+  "excludedName": "Alden"
+}
+

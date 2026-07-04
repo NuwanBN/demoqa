@@ -1,0 +1,84 @@
+{
+  "name": "menu-submenu-hover",
+  "recorded_at": "2026-07-04T12:04:20.179Z",
+  "session_id": "5a7bfbcd-431d-489e-951f-496a7f7e9292",
+  "project_root": "d:\\ordi\\demoqa",
+  "status": "finalized",
+  "steps": [
+    {
+      "seq": 1,
+      "action": "navigate",
+      "timestamp": "2026-07-04T12:04:20.259Z",
+      "url": "https://demoqa.com/menu",
+      "chosen": null,
+      "candidates": [],
+      "screenshot_after": "step-001.png",
+      "actor": "agent",
+      "navigation_trigger": "explicit"
+    },
+    {
+      "seq": 2,
+      "action": "hover",
+      "timestamp": "2026-07-04T12:04:25.150Z",
+      "chosen": {
+        "strategy": "role_name",
+        "value": "link[name=\"Main Item 2\"]",
+        "strength": "strong"
+      },
+      "candidates": [
+        {
+          "strategy": "role_name",
+          "value": "link[name=\"Main Item 2\"]",
+          "strength": "strong"
+        }
+      ],
+      "element": {
+        "role": "link",
+        "name": "Main Item 2",
+        "tag": "a"
+      },
+      "actor": "agent"
+    },
+    {
+      "seq": 3,
+      "action": "hover",
+      "timestamp": "2026-07-04T12:04:28.377Z",
+      "chosen": {
+        "strategy": "role_name",
+        "value": "link[name=\"SUB SUB LIST »\"]",
+        "strength": "strong"
+      },
+      "candidates": [
+        {
+          "strategy": "role_name",
+          "value": "link[name=\"SUB SUB LIST »\"]",
+          "strength": "strong"
+        }
+      ],
+      "element": {
+        "role": "link",
+        "name": "SUB SUB LIST »",
+        "tag": "a"
+      },
+      "actor": "agent"
+    }
+  ],
+  "started_by": "agent",
+  "actor_summary": {
+    "human": 0,
+    "agent": 3
+  },
+  "pre_conditions": [
+    "fresh session",
+    "Menu page is reachable"
+  ],
+  "post_conditions": [
+    "Main Item 2 submenu is open",
+    "SUB SUB LIST sub-submenu shows Sub Sub Item 1 and Sub Sub Item 2"
+  ],
+  "depends_on": [],
+  "pages_covered": [
+    "https://demoqa.com/menu"
+  ],
+  "summary": "Open Menu, hover Main Item 2 to reveal submenu, then hover SUB SUB LIST to reveal Sub Sub Item 1 and Sub Sub Item 2."
+}

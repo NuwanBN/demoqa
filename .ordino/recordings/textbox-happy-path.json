@@ -1,0 +1,291 @@
+{
+  "name": "textbox-happy-path",
+  "recorded_at": "2026-07-04T09:20:44.046Z",
+  "session_id": "3ce4d538-1629-4a06-829f-d92ce330b7fa",
+  "project_root": "d:\\ordi\\demoqa",
+  "status": "finalized",
+  "steps": [
+    {
+      "seq": 1,
+      "action": "navigate",
+      "timestamp": "2026-07-04T09:20:44.118Z",
+      "url": "https://demoqa.com/",
+      "chosen": null,
+      "candidates": [],
+      "screenshot_after": "step-001.png",
+      "actor": "agent",
+      "navigation_trigger": "explicit"
+    },
+    {
+      "seq": 2,
+      "action": "snapshot",
+      "timestamp": "2026-07-04T09:20:58.808Z",
+      "chosen": null,
+      "candidates": [],
+      "screenshot_after": "step-002.png",
+      "actor": "agent"
+    },
+    {
+      "seq": 3,
+      "action": "click",
+      "timestamp": "2026-07-04T09:21:01.838Z",
+      "chosen": {
+        "strategy": "role_name",
+        "value": "link[name=\"Elements\"]",
+        "strength": "strong"
+      },
+      "candidates": [
+        {
+          "strategy": "role_name",
+          "value": "link[name=\"Elements\"]",
+          "strength": "strong"
+        }
+      ],
+      "element": {
+        "role": "link",
+        "name": "Elements",
+        "tag": "a"
+      },
+      "screenshot_after": "step-003.png",
+      "actor": "agent"
+    },
+    {
+      "seq": 4,
+      "action": "navigate",
+      "timestamp": "2026-07-04T09:21:02.005Z",
+      "url": "https://demoqa.com/elements",
+      "chosen": null,
+      "candidates": [],
+      "screenshot_after": "step-004.png",
+      "actor": "agent",
+      "navigation_trigger": "implicit"
+    },
+    {
+      "seq": 5,
+      "action": "snapshot",
+      "timestamp": "2026-07-04T09:21:04.954Z",
+      "chosen": null,
+      "candidates": [],
+      "screenshot_after": "step-005.png",
+      "actor": "agent"
+    },
+    {
+      "seq": 6,
+      "action": "snapshot",
+      "timestamp": "2026-07-04T09:22:04.338Z",
+      "chosen": null,
+      "candidates": [],
+      "screenshot_after": "step-006.png",
+      "actor": "agent"
+    },
+    {
+      "seq": 7,
+      "action": "snapshot",
+      "timestamp": "2026-07-04T09:24:10.477Z",
+      "chosen": null,
+      "candidates": [],
+      "screenshot_after": "step-007.png",
+      "actor": "agent"
+    },
+    {
+      "seq": 8,
+      "action": "fill",
+      "timestamp": "2026-07-04T09:24:29.553Z",
+      "text": "John Doe",
+      "chosen": {
+        "strategy": "dom_id",
+        "value": "userName",
+        "strength": "strong"
+      },
+      "candidates": [
+        {
+          "strategy": "dom_id",
+          "value": "userName",
+          "strength": "strong"
+        },
+        {
+          "strategy": "role_name",
+          "value": "textbox[name=\"Full Name\"]",
+          "strength": "medium"
+        }
+      ],
+      "element": {
+        "role": "textbox",
+        "name": "Full Name",
+        "tag": "input",
+        "id": "userName",
+        "placeholder": "Full Name"
+      },
+      "screenshot_after": "step-008.png",
+      "actor": "agent"
+    },
+    {
+      "seq": 9,
+      "action": "fill",
+      "timestamp": "2026-07-04T09:24:46.514Z",
+      "text": "john.doe@example.com",
+      "chosen": {
+        "strategy": "dom_id",
+        "value": "userEmail",
+        "strength": "strong"
+      },
+      "candidates": [
+        {
+          "strategy": "dom_id",
+          "value": "userEmail",
+          "strength": "strong"
+        },
+        {
+          "strategy": "role_name",
+          "value": "textbox[name=\"name@example.com\"]",
+          "strength": "medium"
+        }
+      ],
+      "element": {
+        "role": "textbox",
+        "name": "name@example.com",
+        "tag": "input",
+        "id": "userEmail",
+        "placeholder": "name@example.com"
+      },
+      "screenshot_after": "step-009.png",
+      "actor": "agent"
+    },
+    {
+      "seq": 10,
+      "action": "fill",
+      "timestamp": "2026-07-04T09:25:05.848Z",
+      "text": "123 Current St",
+      "chosen": {
+        "strategy": "dom_id",
+        "value": "currentAddress",
+        "strength": "strong"
+      },
+      "candidates": [
+        {
+          "strategy": "dom_id",
+          "value": "currentAddress",
+          "strength": "strong"
+        },
+        {
+          "strategy": "role_name",
+          "value": "textbox[name=\"Current Address\"]",
+          "strength": "medium"
+        }
+      ],
+      "element": {
+        "role": "textbox",
+        "name": "Current Address",
+        "tag": "textarea",
+        "id": "currentAddress",
+        "placeholder": "Current Address"
+      },
+      "screenshot_after": "step-010.png",
+      "actor": "agent"
+    },
+    {
+      "seq": 11,
+      "action": "fill",
+      "timestamp": "2026-07-04T09:25:23.792Z",
+      "text": "456 Permanent Ave",
+      "chosen": {
+        "strategy": "dom_id",
+        "value": "permanentAddress",
+        "strength": "strong"
+      },
+      "candidates": [
+        {
+          "strategy": "dom_id",
+          "value": "permanentAddress",
+          "strength": "strong"
+        }
+      ],
+      "element": {
+        "role": "textbox",
+        "name": "",
+        "tag": "textarea",
+        "id": "permanentAddress"
+      },
+      "screenshot_after": "step-011.png",
+      "actor": "agent"
+    },
+    {
+      "seq": 12,
+      "action": "scroll",
+      "timestamp": "2026-07-04T09:25:38.090Z",
+      "chosen": {
+        "strategy": "dom_id",
+        "value": "submit",
+        "strength": "strong"
+      },
+      "candidates": [
+        {
+          "strategy": "dom_id",
+          "value": "submit",
+          "strength": "strong"
+        },
+        {
+          "strategy": "role_name",
+          "value": "button[name=\"Submit\"]",
+          "strength": "medium"
+        }
+      ],
+      "element": {
+        "role": "button",
+        "name": "Submit",
+        "tag": "button",
+        "id": "submit"
+      },
+      "actor": "agent"
+    },
+    {
+      "seq": 13,
+      "action": "click",
+      "timestamp": "2026-07-04T09:25:48.352Z",
+      "chosen": {
+        "strategy": "dom_id",
+        "value": "submit",
+        "strength": "strong"
+      },
+      "candidates": [
+        {
+          "strategy": "dom_id",
+          "value": "submit",
+          "strength": "strong"
+        },
+        {
+          "strategy": "role_name",
+          "value": "button[name=\"Submit\"]",
+          "strength": "medium"
+        }
+      ],
+      "element": {
+        "role": "button",
+        "name": "Submit",
+        "tag": "button",
+        "id": "submit"
+      },
+      "screenshot_after": "step-013.png",
+      "actor": "agent"
+    }
+  ],
+  "started_by": "agent",
+  "actor_summary": {
+    "human": 0,
+    "agent": 13
+  },
+  "pre_conditions": [
+    "fresh session at BASE_URL",
+    "Text Box page is reachable"
+  ],
+  "post_conditions": [
+    "form submitted",
+    "output panel shows Full Name, Email, Current Address, and Permanent Address"
+  ],
+  "depends_on": [],
+  "pages_covered": [
+    "https://demoqa.com/",
+    "https://demoqa.com/elements"
+  ],
+  "summary": "Navigate to Text Box, fill Full Name, Email, Current Address, and Permanent Address, submit, and confirm values appear in the output panel."
+}

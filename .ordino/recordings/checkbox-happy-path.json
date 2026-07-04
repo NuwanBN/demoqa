@@ -1,0 +1,70 @@
+{
+  "name": "checkbox-happy-path",
+  "recorded_at": "2026-07-04T09:34:34.297Z",
+  "session_id": "4100132d-29e6-425d-a56f-2acc3111cd3c",
+  "project_root": "d:\\ordi\\demoqa",
+  "status": "finalized",
+  "steps": [
+    {
+      "seq": 1,
+      "action": "navigate",
+      "timestamp": "2026-07-04T09:34:34.393Z",
+      "url": "https://demoqa.com/checkbox",
+      "chosen": null,
+      "candidates": [],
+      "screenshot_after": "step-001.png",
+      "actor": "agent",
+      "navigation_trigger": "explicit"
+    },
+    {
+      "seq": 2,
+      "action": "snapshot",
+      "timestamp": "2026-07-04T09:34:48.383Z",
+      "chosen": null,
+      "candidates": [],
+      "screenshot_after": "step-002.png",
+      "actor": "agent"
+    },
+    {
+      "seq": 3,
+      "action": "check",
+      "timestamp": "2026-07-04T09:34:52.303Z",
+      "chosen": {
+        "strategy": "role_name",
+        "value": "checkbox[name=\"Select Home\"]",
+        "strength": "strong"
+      },
+      "candidates": [
+        {
+          "strategy": "role_name",
+          "value": "checkbox[name=\"Select Home\"]",
+          "strength": "strong"
+        }
+      ],
+      "element": {
+        "role": "checkbox",
+        "name": "Select Home",
+        "tag": "span"
+      },
+      "actor": "agent"
+    }
+  ],
+  "started_by": "agent",
+  "actor_summary": {
+    "human": 0,
+    "agent": 3
+  },
+  "pre_conditions": [
+    "fresh session",
+    "Check Box page is reachable"
+  ],
+  "post_conditions": [
+    "Home checkbox is checked",
+    "result panel lists selected items including home"
+  ],
+  "depends_on": [],
+  "pages_covered": [
+    "https://demoqa.com/checkbox"
+  ],
+  "summary": "Open Check Box page, select Home, and confirm the result panel shows the selected tree items."
+}

@@ -1,0 +1,311 @@
+{
+  "name": "selectmenu-selections",
+  "recorded_at": "2026-07-04T12:24:08.760Z",
+  "session_id": "5fb95eab-4435-4126-9b94-239b14df44e2",
+  "project_root": "d:\\ordi\\demoqa",
+  "status": "finalized",
+  "steps": [
+    {
+      "seq": 1,
+      "action": "navigate",
+      "timestamp": "2026-07-04T12:24:08.871Z",
+      "url": "https://demoqa.com/select-menu",
+      "chosen": null,
+      "candidates": [],
+      "screenshot_after": "step-001.png",
+      "actor": "agent",
+      "navigation_trigger": "explicit"
+    },
+    {
+      "seq": 2,
+      "action": "click",
+      "timestamp": "2026-07-04T12:24:13.143Z",
+      "chosen": {
+        "strategy": "dom_id",
+        "value": "react-select-2-input",
+        "strength": "strong"
+      },
+      "candidates": [
+        {
+          "strategy": "dom_id",
+          "value": "react-select-2-input",
+          "strength": "strong"
+        }
+      ],
+      "element": {
+        "role": "combobox",
+        "name": "",
+        "tag": "input",
+        "id": "react-select-2-input"
+      },
+      "screenshot_after": "step-002.png",
+      "actor": "agent"
+    },
+    {
+      "seq": 3,
+      "action": "snapshot",
+      "timestamp": "2026-07-04T12:24:30.350Z",
+      "chosen": null,
+      "candidates": [],
+      "screenshot_after": "step-003.png",
+      "actor": "agent"
+    },
+    {
+      "seq": 4,
+      "action": "click",
+      "timestamp": "2026-07-04T12:24:33.812Z",
+      "chosen": {
+        "strategy": "dom_id",
+        "value": "react-select-2-option-0-0",
+        "strength": "strong"
+      },
+      "candidates": [
+        {
+          "strategy": "dom_id",
+          "value": "react-select-2-option-0-0",
+          "strength": "strong"
+        },
+        {
+          "strategy": "role_name",
+          "value": "option[name=\"Group 1, option 1\"]",
+          "strength": "medium"
+        }
+      ],
+      "element": {
+        "role": "option",
+        "name": "Group 1, option 1",
+        "tag": "div",
+        "id": "react-select-2-option-0-0"
+      },
+      "screenshot_after": "step-004.png",
+      "actor": "agent"
+    },
+    {
+      "seq": 5,
+      "action": "snapshot",
+      "timestamp": "2026-07-04T12:24:37.512Z",
+      "chosen": null,
+      "candidates": [],
+      "screenshot_after": "step-005.png",
+      "actor": "agent"
+    },
+    {
+      "seq": 6,
+      "action": "click",
+      "timestamp": "2026-07-04T12:24:41.354Z",
+      "chosen": {
+        "strategy": "dom_id",
+        "value": "react-select-3-input",
+        "strength": "strong"
+      },
+      "candidates": [
+        {
+          "strategy": "dom_id",
+          "value": "react-select-3-input",
+          "strength": "strong"
+        }
+      ],
+      "element": {
+        "role": "combobox",
+        "name": "",
+        "tag": "input",
+        "id": "react-select-3-input"
+      },
+      "screenshot_after": "step-006.png",
+      "actor": "agent"
+    },
+    {
+      "seq": 7,
+      "action": "snapshot",
+      "timestamp": "2026-07-04T12:24:46.195Z",
+      "chosen": null,
+      "candidates": [],
+      "screenshot_after": "step-007.png",
+      "actor": "agent"
+    },
+    {
+      "seq": 8,
+      "action": "click",
+      "timestamp": "2026-07-04T12:24:49.845Z",
+      "chosen": {
+        "strategy": "dom_id",
+        "value": "react-select-3-option-0-0",
+        "strength": "strong"
+      },
+      "candidates": [
+        {
+          "strategy": "dom_id",
+          "value": "react-select-3-option-0-0",
+          "strength": "strong"
+        },
+        {
+          "strategy": "role_name",
+          "value": "option[name=\"Dr.\"]",
+          "strength": "medium"
+        }
+      ],
+      "element": {
+        "role": "option",
+        "name": "Dr.",
+        "tag": "div",
+        "id": "react-select-3-option-0-0"
+      },
+      "screenshot_after": "step-008.png",
+      "actor": "agent"
+    },
+    {
+      "seq": 9,
+      "action": "select",
+      "timestamp": "2026-07-04T12:24:55.058Z",
+      "text": "4",
+      "chosen": {
+        "strategy": "dom_id",
+        "value": "oldSelectMenu",
+        "strength": "strong"
+      },
+      "candidates": [
+        {
+          "strategy": "dom_id",
+          "value": "oldSelectMenu",
+          "strength": "strong"
+        },
+        {
+          "strategy": "role_name",
+          "value": "combobox[name=\"Red Blue Green Yellow Purple Black White Voilet Indigo Magenta Aqua\"]",
+          "strength": "medium"
+        }
+      ],
+      "element": {
+        "role": "combobox",
+        "name": "Red Blue Green Yellow Purple Black White Voilet Indigo Magenta Aqua",
+        "tag": "select",
+        "id": "oldSelectMenu"
+      },
+      "screenshot_after": "step-009.png",
+      "actor": "agent"
+    },
+    {
+      "seq": 10,
+      "action": "snapshot",
+      "timestamp": "2026-07-04T12:24:58.822Z",
+      "chosen": null,
+      "candidates": [],
+      "screenshot_after": "step-010.png",
+      "actor": "agent"
+    },
+    {
+      "seq": 11,
+      "action": "click",
+      "timestamp": "2026-07-04T12:25:02.209Z",
+      "chosen": {
+        "strategy": "dom_id",
+        "value": "react-select-4-input",
+        "strength": "strong"
+      },
+      "candidates": [
+        {
+          "strategy": "dom_id",
+          "value": "react-select-4-input",
+          "strength": "strong"
+        }
+      ],
+      "element": {
+        "role": "combobox",
+        "name": "",
+        "tag": "input",
+        "id": "react-select-4-input"
+      },
+      "screenshot_after": "step-011.png",
+      "actor": "agent"
+    },
+    {
+      "seq": 12,
+      "action": "snapshot",
+      "timestamp": "2026-07-04T12:25:05.597Z",
+      "chosen": null,
+      "candidates": [],
+      "screenshot_after": "step-012.png",
+      "actor": "agent"
+    },
+    {
+      "seq": 13,
+      "action": "click",
+      "timestamp": "2026-07-04T12:25:08.992Z",
+      "chosen": {
+        "strategy": "dom_id",
+        "value": "react-select-4-option-0",
+        "strength": "strong"
+      },
+      "candidates": [
+        {
+          "strategy": "dom_id",
+          "value": "react-select-4-option-0",
+          "strength": "strong"
+        },
+        {
+          "strategy": "role_name",
+          "value": "option[name=\"Green\"]",
+          "strength": "medium"
+        }
+      ],
+      "element": {
+        "role": "option",
+        "name": "Green",
+        "tag": "div",
+        "id": "react-select-4-option-0"
+      },
+      "screenshot_after": "step-013.png",
+      "actor": "agent"
+    },
+    {
+      "seq": 14,
+      "action": "click",
+      "timestamp": "2026-07-04T12:25:12.465Z",
+      "chosen": {
+        "strategy": "dom_id",
+        "value": "react-select-4-option-1",
+        "strength": "strong"
+      },
+      "candidates": [
+        {
+          "strategy": "dom_id",
+          "value": "react-select-4-option-1",
+          "strength": "strong"
+        },
+        {
+          "strategy": "role_name",
+          "value": "option[name=\"Blue\"]",
+          "strength": "medium"
+        }
+      ],
+      "element": {
+        "role": "option",
+        "name": "Blue",
+        "tag": "div",
+        "id": "react-select-4-option-1"
+      },
+      "screenshot_after": "step-014.png",
+      "actor": "agent"
+    }
+  ],
+  "started_by": "agent",
+  "actor_summary": {
+    "human": 0,
+    "agent": 14
+  },
+  "pre_conditions": [
+    "fresh session",
+    "Select Menu page is reachable"
+  ],
+  "post_conditions": [
+    "Select Value shows Group 1, option 1",
+    "Select One shows Dr.",
+    "Old Style Select is Purple",
+    "Multiselect shows Green and Blue"
+  ],
+  "depends_on": [],
+  "pages_covered": [
+    "https://demoqa.com/select-menu"
+  ],
+  "summary": "Open Select Menu and select Group 1 option 1, Dr., Purple, and multiselect colors Green and Blue."
+}

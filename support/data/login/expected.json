@@ -1,0 +1,8 @@
+{
+  "password": "Test@1234",
+  "invalidUser": "bad_user_xyz",
+  "invalidPassword": "Bad@1234",
+  "loginError": "Invalid username or password!",
+  "notLoggedInMessage": "Currently you are not logged into the Book Store application",
+  "loginHeading": "Login in Book Store"
+}

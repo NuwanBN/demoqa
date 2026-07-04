@@ -1,0 +1,106 @@
+{
+  "name": "sortable-list-grid",
+  "recorded_at": "2026-07-04T12:38:40.049Z",
+  "session_id": "9bc3b4dd-fd87-4fdf-950b-3ed24245b42d",
+  "project_root": "d:\\ordi\\demoqa",
+  "status": "finalized",
+  "steps": [
+    {
+      "seq": 1,
+      "action": "navigate",
+      "timestamp": "2026-07-04T12:38:40.158Z",
+      "url": "https://demoqa.com/sortable",
+      "chosen": null,
+      "candidates": [],
+      "screenshot_after": "step-001.png",
+      "actor": "agent",
+      "navigation_trigger": "explicit"
+    },
+    {
+      "seq": 2,
+      "action": "snapshot",
+      "timestamp": "2026-07-04T12:38:43.422Z",
+      "chosen": null,
+      "candidates": [],
+      "screenshot_after": "step-002.png",
+      "actor": "agent"
+    },
+    {
+      "seq": 3,
+      "action": "click",
+      "timestamp": "2026-07-04T12:38:46.686Z",
+      "chosen": {
+        "strategy": "dom_id",
+        "value": "demo-tab-list",
+        "strength": "strong"
+      },
+      "candidates": [
+        {
+          "strategy": "dom_id",
+          "value": "demo-tab-list",
+          "strength": "strong"
+        },
+        {
+          "strategy": "role_name",
+          "value": "tab[name=\"List\"]",
+          "strength": "medium"
+        }
+      ],
+      "element": {
+        "role": "tab",
+        "name": "List",
+        "tag": "button",
+        "id": "demo-tab-list"
+      },
+      "screenshot_after": "step-003.png",
+      "actor": "agent"
+    },
+    {
+      "seq": 4,
+      "action": "click",
+      "timestamp": "2026-07-04T12:38:50.076Z",
+      "chosen": {
+        "strategy": "dom_id",
+        "value": "demo-tab-grid",
+        "strength": "strong"
+      },
+      "candidates": [
+        {
+          "strategy": "dom_id",
+          "value": "demo-tab-grid",
+          "strength": "strong"
+        },
+        {
+          "strategy": "role_name",
+          "value": "tab[name=\"Grid\"]",
+          "strength": "medium"
+        }
+      ],
+      "element": {
+        "role": "tab",
+        "name": "Grid",
+        "tag": "button",
+        "id": "demo-tab-grid"
+      },
+      "screenshot_after": "step-004.png",
+      "actor": "agent"
+    }
+  ],
+  "started_by": "agent",
+  "actor_summary": {
+    "human": 0,
+    "agent": 4
+  },
+  "pre_conditions": [
+    "fresh session",
+    "Sortable page is reachable"
+  ],
+  "post_conditions": [
+    "Grid tab is active"
+  ],
+  "depends_on": [],
+  "pages_covered": [
+    "https://demoqa.com/sortable"
+  ],
+  "summary": "Open Sortable and switch between List and Grid tabs. List and grid items are plain divs (not in a11y tree); reorder is validated via live DOM drag probes."
+}
