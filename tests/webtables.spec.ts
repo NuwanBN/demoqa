@@ -1,4 +1,4 @@
-// spec: .ordino/stories/webtables.story.md
+// spec: .crevoai/stories/webtables.story.md
 import { test } from '@config/page.config';
 import { webtablesExpected as expected } from '@config/page-loader';
 

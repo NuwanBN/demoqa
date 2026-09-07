@@ -1,4 +1,4 @@
-// spec: .ordino/stories/progressbar.story.md
+// spec: .crevoai/stories/progressbar.story.md
 import { test } from '@config/page.config';
 import { progressbarExpected as expected } from '@config/page-loader';
 

@@ -1,4 +1,4 @@
-// spec: .ordino/stories/dynamicproperties.story.md
+// spec: .crevoai/stories/dynamicproperties.story.md
 import { test } from '@config/page.config';
 import { dynamicpropertiesExpected as expected } from '@config/page-loader';
 

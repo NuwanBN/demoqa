@@ -1,4 +1,4 @@
-// spec: .ordino/stories/selectable.story.md
+// spec: .crevoai/stories/selectable.story.md
 import { test } from '@config/page.config';
 import { selectableExpected as expected } from '@config/page-loader';
 

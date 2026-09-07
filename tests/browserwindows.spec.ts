@@ -1,4 +1,4 @@
-// spec: .ordino/stories/browserwindows.story.md
+// spec: .crevoai/stories/browserwindows.story.md
 import { test } from '@config/page.config';
 import { browserwindowsExpected as expected } from '@config/page-loader';
 

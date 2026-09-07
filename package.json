@@ -1,5 +1,5 @@
 {
-  "name": "ordino-tests",
+  "name": "crevoai-tests",
   "private": true,
   "scripts": {
     "test": "playwright test",

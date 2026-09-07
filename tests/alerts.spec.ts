@@ -1,4 +1,4 @@
-// spec: .ordino/stories/alerts.story.md
+// spec: .crevoai/stories/alerts.story.md
 import { test } from '@config/page.config';
 import { alertsExpected as expected } from '@config/page-loader';
 

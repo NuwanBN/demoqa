@@ -1,4 +1,4 @@
-// spec: .ordino/stories/smoke.story.md
+// spec: .crevoai/stories/smoke.story.md
 import { test, expect } from '@config/page.config';
 
 // scenario: Happy Path

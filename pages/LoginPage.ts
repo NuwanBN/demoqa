@@ -1,4 +1,4 @@
-// AUTO-GENERATED — edit this file directly; use ordino_generate_code create/register_page for structural changes
+// AUTO-GENERATED — edit this file directly; use crevoai_generate_code create/register_page for structural changes
 import { BasePage } from './BasePage';
 import { loginExpected as expected } from '@config/page-loader';
 import { expect } from '@playwright/test';
@@ -184,7 +184,7 @@ export class LoginPage extends BasePage {
    * @returns this for chaining
    */
   async verify_login_error(): Promise<this> {
-    await expect(this.loginError).toContainText(expected.loginError);
+    await expect(this.loginError).toContainText(expected.loginError, { timeout: 10000 });
     return this;
   }
 

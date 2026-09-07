@@ -1,4 +1,4 @@
-// spec: .ordino/stories/brokenlinks.story.md
+// spec: .crevoai/stories/brokenlinks.story.md
 import { test } from '@config/page.config';
 import { brokenlinksExpected as expected } from '@config/page-loader';
 

@@ -1,4 +1,4 @@
-// spec: .ordino/stories/tooltips.story.md
+// spec: .crevoai/stories/tooltips.story.md
 import { test } from '@config/page.config';
 import { tooltipsExpected as expected } from '@config/page-loader';
 

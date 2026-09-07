@@ -1,4 +1,4 @@
-// spec: .ordino/stories/droppable.story.md
+// spec: .crevoai/stories/droppable.story.md
 import { test } from '@config/page.config';
 import { droppableExpected as expected } from '@config/page-loader';
 

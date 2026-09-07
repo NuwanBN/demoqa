@@ -1,4 +1,4 @@
-// AUTO-GENERATED — edit this file directly; use ordino_generate_code create/register_page for structural changes
+// AUTO-GENERATED — edit this file directly; use crevoai_generate_code create/register_page for structural changes
 import { BasePage } from './BasePage';
 import { droppableExpected as expected } from '@config/page-loader';
 import { expect, Locator } from '@playwright/test';
@@ -59,7 +59,7 @@ export class DroppablePage extends BasePage {
    */
   async step_accept_drop(): Promise<this> {
     await this.dropUntil(this.acceptable, this.acceptDrop, this.acceptDrop, async () => {
-      await this.acceptTab.click({ force: true });
+      await this.openTab(this.acceptTab, this.acceptable);
     });
     return this;
   }
@@ -71,7 +71,7 @@ export class DroppablePage extends BasePage {
   async step_prevent_propagation_drop(): Promise<this> {
     // Drop on the outer rim (not the centered inner box)
     await this.dropUntil(this.dragBox, this.notGreedyOuter, this.notGreedyOuter, async () => {
-      await this.preventTab.click({ force: true });
+      await this.openTab(this.preventTab, this.dragBox);
     }, { xRatio: 0.5, yRatio: 0.12 });
     return this;
   }
@@ -82,7 +82,7 @@ export class DroppablePage extends BasePage {
    */
   async step_revert_drop(): Promise<this> {
     await this.dropUntil(this.willRevert, this.revertDrop, this.revertDrop, async () => {
-      await this.revertTab.click({ force: true });
+      await this.openTab(this.revertTab, this.willRevert);
       const before = await this.willRevert.boundingBox();
       this.revertStartX = before?.x ?? 0;
     });
@@ -129,6 +129,12 @@ export class DroppablePage extends BasePage {
     return this;
   }
 
+  /** Switches tabs and waits for the pane's content to actually be visible. */
+  private async openTab(tab: Locator, revealed: Locator): Promise<void> {
+    await tab.click();
+    await revealed.waitFor({ state: 'visible', timeout: 10000 });
+  }
+
   private async dropUntil(
     source: Locator,
     target: Locator,
@@ -141,15 +147,16 @@ export class DroppablePage extends BasePage {
         await this.page.goto(this.path);
         await this.waitForPageLoad();
       }
-      if (prepare) {
-        await prepare();
-      }
-      await this.jqueryDrop(source, target, targetPoint);
       try {
+        if (prepare) {
+          await prepare();
+        }
+        await this.jqueryDrop(source, target, targetPoint);
         await expect(assertOn).toContainText(expected.droppedText, { timeout: 2000 });
         return;
       } catch {
-        // jQuery UI droppable can miss intermittent pointer paths
+        // jQuery UI droppable can miss intermittent pointer paths, and a tab pane
+        // that has not finished switching leaves the source hidden. Both are retried.
       }
     }
     await expect(assertOn).toContainText(expected.droppedText);
@@ -173,7 +180,11 @@ export class DroppablePage extends BasePage {
     const end = { x: dst.x + dst.width * xRatio, y: dst.y + dst.height * yRatio };
     await this.page.mouse.move(start.x, start.y);
     await this.page.mouse.down();
+    // Nudge past jQuery UI's drag-start distance threshold before the long move.
+    await this.page.mouse.move(start.x + 8, start.y + 8, { steps: 4 });
     await this.page.mouse.move(end.x, end.y, { steps: 25 });
+    // Settle on the target: droppable evaluates the drop on the final mousemove.
+    await this.page.mouse.move(end.x, end.y);
     await this.page.mouse.up();
   }
 }

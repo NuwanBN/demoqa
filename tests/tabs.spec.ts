@@ -1,4 +1,4 @@
-// spec: .ordino/stories/tabs.story.md
+// spec: .crevoai/stories/tabs.story.md
 import { test } from '@config/page.config';
 import { tabsExpected as expected } from '@config/page-loader';
 

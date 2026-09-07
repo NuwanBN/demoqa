@@ -1,4 +1,4 @@
-// spec: .ordino/stories/books.story.md
+// spec: .crevoai/stories/books.story.md
 import { test } from '@config/page.config';
 import { booksExpected as expected } from '@config/page-loader';
 

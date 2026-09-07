@@ -1,4 +1,4 @@
-// spec: .ordino/stories/menu.story.md
+// spec: .crevoai/stories/menu.story.md
 import { test } from '@config/page.config';
 
 test.describe('DemoQA - Menu', () => {

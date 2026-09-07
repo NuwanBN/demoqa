@@ -1,4 +1,4 @@
-// AUTO-GENERATED — edit this file directly; use ordino_generate_code create/register_page for structural changes
+// AUTO-GENERATED — edit this file directly; use crevoai_generate_code create/register_page for structural changes
 import { BasePage } from './BasePage';
 import { expect } from '@playwright/test';
 
@@ -40,6 +40,7 @@ export class MenuPage extends BasePage {
    * @returns this for chaining
    */
   async step_hover_main_item_2(): Promise<this> {
+    await this.settleLayout();
     await this.mainItem2Link.scrollIntoViewIfNeeded();
     await this.mainItem2Link.hover({ force: true });
     return this;
@@ -50,9 +51,37 @@ export class MenuPage extends BasePage {
    * @returns this for chaining
    */
   async step_hover_sub_sub_list(): Promise<this> {
-    await this.subSubListLink.scrollIntoViewIfNeeded();
-    await this.subSubListLink.hover({ force: true });
-    return this;
+    // The submenu is held open purely by CSS :hover on the ancestor <li>. DemoQA's
+    // late-loading ad banners shift the layout, which slides Main Item 2 out from
+    // under the pointer and collapses the whole chain mid-hover. So re-open the
+    // parent on each attempt and walk the pointer down without any intervening
+    // scroll (scrolling has the same collapsing effect).
+    let lastError: unknown;
+    for (let attempt = 0; attempt < 4; attempt++) {
+      try {
+        await this.mainItem2Link.hover({ force: true });
+        await this.subSubListLink.waitFor({ state: 'visible', timeout: 3000 });
+        await this.subSubListLink.hover({ force: true });
+        await this.subSubItem1Link.waitFor({ state: 'visible', timeout: 3000 });
+        return this;
+      } catch (err) {
+        lastError = err;
+        await this.settleLayout();
+      }
+    }
+    throw lastError;
+  }
+
+  /**
+   * Waits for DemoQA's ad iframes to finish loading so the menu stops moving.
+   * Bounded, because the ad network does not always reach a networkidle state.
+   */
+  private async settleLayout(): Promise<void> {
+    try {
+      await this.page.waitForLoadState('networkidle', { timeout: 5000 });
+    } catch {
+      // Ads may never settle; the hover retry below absorbs the residual shift.
+    }
   }
 
   // ── Verifies ───────────────────────────────────────────────────────────

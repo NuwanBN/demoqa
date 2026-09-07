@@ -7,6 +7,9 @@ const BASE_URL = process.env.BASE_URL || 'https://demoqa.com';
 
 export default defineConfig({
   testDir: './tests',
+  // The Book Store journeys are network-bound against the live DemoQA API and
+  // routinely run 18-28s; the 30s default leaves no headroom for a slow response.
+  timeout: 60000,
   fullyParallel: true,
   retries: process.env.CI ? parseInt(process.env.RETRIES || '2', 10) : 0,
   workers: process.env.CI ? parseInt(process.env.WORKERS || '1', 10) : undefined,

@@ -1,4 +1,4 @@
-// spec: .ordino/stories/checkbox.story.md
+// spec: .crevoai/stories/checkbox.story.md
 import { test } from '@config/page.config';
 import { checkboxExpected as expected } from '@config/page-loader';
 

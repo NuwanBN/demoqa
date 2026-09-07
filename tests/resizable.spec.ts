@@ -1,4 +1,4 @@
-// spec: .ordino/stories/resizable.story.md
+// spec: .crevoai/stories/resizable.story.md
 import { test } from '@config/page.config';
 import { resizableExpected as expected } from '@config/page-loader';
 

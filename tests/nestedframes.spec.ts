@@ -1,4 +1,4 @@
-// spec: .ordino/stories/nestedframes.story.md
+// spec: .crevoai/stories/nestedframes.story.md
 import { test } from '@config/page.config';
 import { nestedframesExpected as expected } from '@config/page-loader';
 

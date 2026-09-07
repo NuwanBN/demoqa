@@ -1,4 +1,4 @@
-// spec: .ordino/stories/datepicker.story.md
+// spec: .crevoai/stories/datepicker.story.md
 import { test } from '@config/page.config';
 import { datepickerExpected as expected } from '@config/page-loader';
 

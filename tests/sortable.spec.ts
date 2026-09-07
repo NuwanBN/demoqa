@@ -1,4 +1,4 @@
-// spec: .ordino/stories/sortable.story.md
+// spec: .crevoai/stories/sortable.story.md
 import { test } from '@config/page.config';
 import { sortableExpected as expected } from '@config/page-loader';
 

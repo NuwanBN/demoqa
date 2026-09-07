@@ -1,6 +1,6 @@
-# ordino-tests
+# crevoai-tests
 
-End-to-end tests built with [Playwright](https://playwright.dev/) and TypeScript, generated and maintained by [Ordino](https://ordino.io).
+End-to-end tests built with [Playwright](https://playwright.dev/) and TypeScript, generated and maintained by [CrevoAI](https://crevoai.io).
 
 ---
 
@@ -66,7 +66,7 @@ Test results land in `test-results/`:
 │       └── <feature>/
 │           └── expected.json        # Asserted UI strings for that feature
 │
-├── .ordino/                         # Ordino project config and agent memory
+├── .crevoai/                         # CrevoAI project config and agent memory
 │   ├── stories/
 │   │   └── <feature>.story.md       # Feature intent, acceptance criteria, scenarios
 │   ├── recordings/
@@ -90,7 +90,7 @@ Each feature follows a consistent 7-token naming convention derived from a singl
 
 | Token | Example |
 |---|---|
-| Story file | `.ordino/stories/login.story.md` |
+| Story file | `.crevoai/stories/login.story.md` |
 | Data folder | `support/data/login/` |
 | Page class | `LoginPage` in `pages/LoginPage.ts` |
 | Fixture key | `loginPage` |
@@ -98,7 +98,7 @@ Each feature follows a consistent 7-token naming convention derived from a singl
 | Spec file | `tests/login.spec.ts` |
 | Describe title | `'MyApp - Login'` |
 
-To add tests for a new feature, use the **grow_tests** workflow in Ordino. It handles story discovery, page object authoring, fixture wiring, and spec generation in one guided pass.
+To add tests for a new feature, use the **grow_tests** workflow in CrevoAI. It handles story discovery, page object authoring, fixture wiring, and spec generation in one guided pass.
 
 ---
 

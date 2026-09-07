@@ -1,4 +1,4 @@
-// spec: .ordino/stories/bookapi.story.md
+// spec: .crevoai/stories/bookapi.story.md
 import { test } from '@config/page.config';
 
 test.describe('DemoQA - Bookapi', () => {

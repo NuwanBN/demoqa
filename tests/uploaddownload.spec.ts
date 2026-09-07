@@ -1,4 +1,4 @@
-// spec: .ordino/stories/uploaddownload.story.md
+// spec: .crevoai/stories/uploaddownload.story.md
 import { test } from '@config/page.config';
 import { uploaddownloadExpected as expected } from '@config/page-loader';
 

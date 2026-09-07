@@ -1,4 +1,4 @@
-// spec: .ordino/stories/autocomplete.story.md
+// spec: .crevoai/stories/autocomplete.story.md
 import { test } from '@config/page.config';
 import { autocompleteExpected as expected } from '@config/page-loader';
 

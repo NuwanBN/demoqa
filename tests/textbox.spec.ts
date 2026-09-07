@@ -1,4 +1,4 @@
-// spec: .ordino/stories/textbox.story.md
+// spec: .crevoai/stories/textbox.story.md
 import { test } from '@config/page.config';
 import { textboxExpected as expected } from '@config/page-loader';
 

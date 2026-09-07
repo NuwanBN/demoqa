@@ -1,4 +1,4 @@
-// spec: .ordino/stories/modaldialogs.story.md
+// spec: .crevoai/stories/modaldialogs.story.md
 import { test } from '@config/page.config';
 import { modaldialogsExpected as expected } from '@config/page-loader';
 

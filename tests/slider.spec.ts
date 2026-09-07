@@ -1,4 +1,4 @@
-// spec: .ordino/stories/slider.story.md
+// spec: .crevoai/stories/slider.story.md
 import { test } from '@config/page.config';
 import { sliderExpected as expected } from '@config/page-loader';
 

@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "CrevoAI": {
+      "type": "http",
+      "url": "http://127.0.0.1:9223/mcp?project_root=d%3A%5Cordi%5Cdemoqa",
+      "headers": {
+        "x-crevoai-project-root": "d:\\ordi\\demoqa"
+      }
+    }
+  }
+}

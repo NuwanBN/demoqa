@@ -1,4 +1,4 @@
-// spec: .ordino/stories/frames.story.md
+// spec: .crevoai/stories/frames.story.md
 import { test } from '@config/page.config';
 import { framesExpected as expected } from '@config/page-loader';
 

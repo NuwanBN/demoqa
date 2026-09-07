@@ -1,4 +1,4 @@
-// AUTO-GENERATED — edit this file directly; use ordino_generate_code create/register_page for structural changes
+// AUTO-GENERATED — edit this file directly; use crevoai_generate_code create/register_page for structural changes
 import { BasePage } from './BasePage';
 import { sliderExpected as expected } from '@config/page-loader';
 import { expect } from '@playwright/test';

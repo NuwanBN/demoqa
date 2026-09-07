@@ -1,4 +1,4 @@
-// spec: .ordino/stories/radio.story.md
+// spec: .crevoai/stories/radio.story.md
 import { test } from '@config/page.config';
 import { radioExpected as expected } from '@config/page-loader';
 

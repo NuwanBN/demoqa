@@ -1,4 +1,4 @@
-// spec: .ordino/stories/accordian.story.md
+// spec: .crevoai/stories/accordian.story.md
 import { test } from '@config/page.config';
 import { accordianExpected as expected } from '@config/page-loader';
 

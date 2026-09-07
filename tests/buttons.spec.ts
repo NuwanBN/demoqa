@@ -1,4 +1,4 @@
-// spec: .ordino/stories/buttons.story.md
+// spec: .crevoai/stories/buttons.story.md
 import { test } from '@config/page.config';
 import { buttonsExpected as expected } from '@config/page-loader';
 

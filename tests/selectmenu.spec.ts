@@ -1,4 +1,4 @@
-// spec: .ordino/stories/selectmenu.story.md
+// spec: .crevoai/stories/selectmenu.story.md
 import { test } from '@config/page.config';
 import { selectmenuExpected as expected } from '@config/page-loader';
 

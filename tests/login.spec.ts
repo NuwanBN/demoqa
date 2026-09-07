@@ -1,4 +1,4 @@
-// spec: .ordino/stories/login.story.md
+// spec: .crevoai/stories/login.story.md
 import { test } from '@config/page.config';
 
 test.describe('DemoQA - Login', () => {

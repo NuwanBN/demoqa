@@ -1,4 +1,4 @@
-// spec: .ordino/stories/practiceform.story.md
+// spec: .crevoai/stories/practiceform.story.md
 import { test } from '@config/page.config';
 import { practiceformExpected as expected } from '@config/page-loader';
 

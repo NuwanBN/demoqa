@@ -1,4 +1,4 @@
-// spec: .ordino/stories/draggable.story.md
+// spec: .crevoai/stories/draggable.story.md
 import { test } from '@config/page.config';
 import { draggableExpected as expected } from '@config/page-loader';
 
